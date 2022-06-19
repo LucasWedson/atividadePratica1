@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   line-height: 1.15;
@@ -250,4 +254,8 @@ label {
   border-radius: 0.5rem;
   position: relative;
   align-items: flex-start;
+}
+
+.labelCPF {
+  text-transform: uppercase;
 }
